@@ -21,3 +21,4 @@ def test_plus(a, b, out, calculator):
 ])
 def test_minus(a, b, out, calculator):
     assert calculator.minus(a,b) == out
+
