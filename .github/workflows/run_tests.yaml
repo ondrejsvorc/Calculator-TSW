@@ -1,6 +1,6 @@
 name: Moje testy
 
-on: [push]
+on: [push, pull_requst]
 
 jobs:
     build:
