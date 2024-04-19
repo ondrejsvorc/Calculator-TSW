@@ -14,7 +14,7 @@ class Calculator:
         return self._ans
 
     def plus(self, a, b):
-        return self._operate(a, b, operator=add)
+        return self._operate(a, b, operator=sub)
 
     def minus(self, a, b):
         return self._operate(a, b, operator=add)
